@@ -47,6 +47,8 @@ Python Advanced Course
         3. readline() --> read one line of data at a time
         4. readlines() --> read all data in the from of list
 
+        # With keyword with file
+
     b. Binary File
         Modes for File:
         i. rb
