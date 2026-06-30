@@ -1,0 +1,58 @@
+Python Advanced Course
+
+1. File handling
+    Types of File
+    a. Text File:
+        How to open a file?
+        -->
+        f=open(filename, mode)
+        f=open(abc.txt)
+
+        # Modes of File:
+        i. r for reading:
+            note: if file doesn't exist then it will give an error
+
+        ii. w for writing:
+            note: if file doesn't exist then a new file will be created and writes(overide) the data
+
+        iii. a for append:
+            note: if file doesn't exists then a new file will be created and new data will be append
+
+        iv. r+ for both read and write:
+            note: if file doesn't exist then it will give an error
+
+        v. w+ for write and read:
+            note: if file doesn't exist then a new file will be created and writes(overide) the data
+
+        vi. a+ for append and read:
+            note: if file doesn't exists then a new file will be created and new data will be append
+
+        vii. x for exclusive mode:
+            note: if the file exists already then this mode will give error
+
+        # Some attributes related to file:
+        1. name 
+        2. mode
+        3. closed
+        4. readable()
+        5. writable()
+
+        # How to write data inside the file:
+        1. write()
+        2. writelines()
+
+        # How to read data inside the file:
+        1. read() --> read all data from the file (str)
+        2. read(number) --> read data of specified number
+        3. readline() --> read one line of data at a time
+        4. readlines() --> read all data in the from of list
+
+    b. Binary File
+        Modes for File:
+        i. rb
+        ii. wb
+        iii. ab
+        iv. r+b
+        v. w+b
+        vi. a+b
+        vii. xb
