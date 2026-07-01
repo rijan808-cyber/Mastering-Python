@@ -1,0 +1,6 @@
+f = open("Starry_Night.jpg",'rb')
+f1 = open('papu.jpg','wb')
+data = f.read()
+f1.write(data)
+f.close()
+f1.close()
