@@ -63,3 +63,9 @@ Python Advanced Course
     writer(writes object)
     writerrow(given in the form of list)
     import csv/import csv as a
+
+    # zip Files
+    upper camel case --> class eg: RijanPariyar
+    lower camel case --> method eg: rijanPariyar
+    lower case --> module/method eg: rijanpariyar
+    there is a module for zip file
