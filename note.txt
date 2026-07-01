@@ -58,3 +58,8 @@ Python Advanced Course
         v. w+b
         vi. a+b
         vii. xb
+    
+    #CSV Files (Comma Seperated Value)
+    writer(writes object)
+    writerrow(given in the form of list)
+    import csv/import csv as a

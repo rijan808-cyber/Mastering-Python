@@ -44,4 +44,26 @@ def search_by_id():
         print("Student Not Found")
     f.close()
 
-search_by_id()
+print("Students Information CRUD Operations")
+print("--"*50)
+while True:
+    print("1. Insert Students Details")
+    print("2. Display all students details")
+    print("3. Search Students Details by id")
+    print("4. Edit students details by id")
+    print("5. Delete Students Details by id")
+    print("6. Exit")
+    print()
+    ch=int(input("Enter your choice: "))
+    if ch == 1:
+        storestudentsdetails()
+    elif ch == 2:
+        readstudentdetails()
+    elif ch == 3:
+        search_by_id()
+    elif ch == 6:
+        print("Thanks for using our application!!")
+        exit()
+    else:
+        print("Invalid choice!! plz enter a valid choice")
+    
