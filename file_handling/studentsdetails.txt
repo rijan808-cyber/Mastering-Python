@@ -1,5 +1,5 @@
 1 | Rijan Pariyar | 18 | rijan@gmail.com | 9706014695 | 250000.0 
 2 | Ajay Bahadur Shrestha | 21 | ajay@gmail.com | 970245368 | 245000.0 
 3 | Sanjay Kumar Shrestha | 20 | sanjay@gmail.com | 9830023238 | 230000.0 
-4 | Shreya Singh Chaudhari | 18 | shreya@gmail.com | 928380380 | 450000.0 
-5 | Subodh Acharya | 67 | subodh@gmail.com | 902803039 | 3345670.0 
+4 | Radhika Bastola | 19 | radhika@gmail.com | 960808320 | 240000.0 
+5 | Prarthana Khadgi | 20 | prarthana@gmail.com | 980400000 | 4500000.0

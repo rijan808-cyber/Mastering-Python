@@ -44,9 +44,56 @@ def search_by_id():
         print("Student Not Found")
     f.close()
 
+def editstudentdetails():
+    f = open('studentsdetails.txt')
+    data = f.readlines()
+    f.close()
+
+    ids = int(input("Enter Student ID to Edit: "))
+
+    f = open('studentsdetails.txt', 'w')
+
+    for line in data:
+        id, name, age, email, contact, fees = line.split('|')
+
+        if int(id) == ids:
+            print("Enter New Student Details")
+            name = input("Enter New Name: ")
+            age = int(input("Enter New Age: "))
+            email = input("Enter New Email: ")
+            contact = int(input("Enter New Contact: "))
+            fees = float(input("Enter New Fees: "))
+
+            f.write(f'{id} | {name} | {age} | {email} | {contact} | {fees} \n')
+            print("Info was edited succesfully !!")
+        else:
+            f.write(line)
+    f.close()
+    print()
+
+def deletestudentdetails():
+    f = open("studentsdetails.txt", "r")
+    data = f.readlines()
+    f.close()
+
+    ids = int(input("Enter Student ID to Delete: "))
+
+    f = open("studentsdetails.txt", "w")
+
+    for line in data:
+        id, name, age, email, contact, fees = line.split("|")
+
+        if int(id.strip()) != ids:
+            f.write(line)
+
+    f.close()
+    print("Student Details Deleted Successfully !!")
+    print()
+
 print("Students Information CRUD Operations")
 print("--"*50)
 while True:
+    print("Enter your choice: ")
     print("1. Insert Students Details")
     print("2. Display all students details")
     print("3. Search Students Details by id")
@@ -61,9 +108,13 @@ while True:
         readstudentdetails()
     elif ch == 3:
         search_by_id()
+    elif ch == 4:
+        editstudentdetails()
+    elif ch == 5:
+        deletestudentdetails()
     elif ch == 6:
         print("Thanks for using our application!!")
         exit()
     else:
-        print("Invalid choice!! plz enter a valid choice")
+        print("Invalid choice!! plz enter a valid choice!!!!!")
     

@@ -1,6 +1,6 @@
 Python Advanced Course
 
-1. File handling
+*** File handling ***
     Types of File
     a. Text File:
         How to open a file?
@@ -69,3 +69,20 @@ Python Advanced Course
     lower camel case --> method eg: rijanPariyar
     lower case --> module/method eg: rijanpariyar
     there is a module for zip file
+
+
+*** Some important module in Python ***
+    1. random module
+        # Different function in random module
+        Function	Purpose
+        randint()	Random integer
+        random()	Decimal between 0 and 1
+        uniform()	Decimal within range
+        choice()	One random item
+        choices()	Multiple items (duplicates allowed)
+        sample()	Multiple unique items
+        shuffle()	Rearrange list
+        randrange()	Random number from range
+        seed()	    Fixed random sequence
+
+    2. datetime
