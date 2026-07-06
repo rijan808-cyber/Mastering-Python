@@ -86,3 +86,5 @@ Python Advanced Course
         seed()	    Fixed random sequence
 
     2. datetime
+        - from datetime import *
+        - import datetime as d
