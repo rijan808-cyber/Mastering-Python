@@ -44,7 +44,6 @@ class SavingAcc(BankAccount):
     def display_balance(self):
         return self.balance
 
-
 class CurrentAccount(BankAccount):
     def __init__(self, name,accno,balance=0):
         self.name=name
@@ -77,7 +76,6 @@ class CurrentAccount(BankAccount):
     def display_balance(self):
         return self.balance
 
-
 savingcustomers=[SavingAcc("Rijan",12345),SavingAcc("Pappu",13579,1000),SavingAcc("Subodh",24684,1200),SavingAcc("Richa",54321,1500)]
 
 print("Saving account Balance Details..")
@@ -90,7 +88,3 @@ print("Current account  Details..")
 currentcustomers=CurrentAccount("Lbef",12345,5000)
 currentcustomers.withdraw(12345,8000)
 print(f'Actual balance: {currentcustomers.display_balance()}')
-
-
-        
-        
